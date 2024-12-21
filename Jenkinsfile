@@ -5,7 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building...'
-                sh 'python3 --version'
+                sh 'git clone https://github.com/rkb9878/jenkinsLearning.git'
                 // Add your build commands here
             }
         }
