@@ -27,6 +27,7 @@ pipeline {
                 echo 'Deploying to environment...'
                 // Deploy your code, e.g., to a staging or production environment
                 // sh 'deploy.sh'  // Example of running a deploy script
+                sh 'python3 test.py'
             }
         }
     }
